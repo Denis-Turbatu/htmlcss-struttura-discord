@@ -1,0 +1,54 @@
+/* RESET */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* COMMON */
+
+
+/* HEADER */
+header{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    background-color: lightblue;
+}
+
+.logo, .login, .navbar{
+    background-color: orange;
+    border: dashed 1px black;
+}
+
+.nav-items{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.long-col, .short-col{
+    padding: 5px;
+}
+
+.short-col {
+    width: 15%;
+}
+
+.long-col {
+    width: 40%;
+}
+
+.login {
+    text-align: right;
+}
+
+
+
+/* MAIN */
+
+
+
+/* FOOTER */
+
