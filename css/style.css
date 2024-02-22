@@ -118,3 +118,55 @@ header{
 
 /* FOOTER */
 
+.footer-section{
+
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+
+footer hr{
+    border: solid 1px white;
+}
+
+.info-anchors{
+    width: 50%;
+    height: 550px;
+    border: dashed 2px black;
+    display: flex;
+}
+
+.info-object{
+    background-color: #20b2aa;
+    width: calc(100% / 6);
+    border: dashed 2px white;
+}
+
+.large-info{
+    width: calc(100% / 6 * 2);
+    background-color: darksalmon;
+    border: dashed 2px black;
+}
+
+.footer-line{
+    display: flex;
+    background-color: #222;
+    padding-top: 20px;
+    justify-content: center;
+}
+
+.footer-container{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+    padding: 5px 0;
+}
+
+.footer-object {
+    padding: 5px 10px;
+    background-color: pink;
+    border: dashed 2px black;
+}
